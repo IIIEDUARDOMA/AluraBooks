@@ -32,6 +32,7 @@
 .card__descricao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .descricao__titulo {
@@ -56,9 +57,18 @@
 }
 
 .botoes {
-    display:flex
+    display: flex;
+    align-items: center;
 }
 
 .botoes__item {
-    
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    color: var(--branco);
+    background: var(--laranja);
+    padding: 1em 2.2em;
+    font-weight: 700;
+    text-decoration: none;
 }
