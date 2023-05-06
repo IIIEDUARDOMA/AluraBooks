@@ -1,0 +1,7 @@
+hr{
+    margin: 0;
+}
+.rodapé {
+    padding: 2em;
+    background: var(--cinza-rodape);
+}
