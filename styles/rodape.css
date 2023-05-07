@@ -6,6 +6,10 @@ hr{
     background: var(--cinza-rodape);
 }
 
+.lista-rodapé {
+    display: none;
+}
+
 
 
 @media screen and (min-width: 1024px) {
@@ -13,6 +17,10 @@ hr{
         display: flex;
         justify-content: space-around;
         padding: 3em 0;
+    }
+
+    .lista-rodapé {
+        display: block;
     }
 
     .lista-rodapé__titulo {
