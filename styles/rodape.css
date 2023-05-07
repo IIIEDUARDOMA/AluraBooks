@@ -2,6 +2,35 @@ hr{
     margin: 0;
 }
 .rodapé {
-    padding: 2em;
+    padding: 1em;
     background: var(--cinza-rodape);
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .rodapé{
+        display: flex;
+        justify-content: space-around;
+        padding: 3em 0;
+    }
+
+    .lista-rodapé__titulo {
+        font-size: 14px;
+        color: var(--cinza-secundario);
+        margin-bottom: 3em;
+    }
+
+    .lista-rodapé__link {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--preto-secundario);
+        padding: 0.5em;
+}
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
 }
