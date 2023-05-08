@@ -27,6 +27,7 @@ hr{
         font-size: 14px;
         color: var(--cinza-secundario);
         margin-bottom: 3em;
+        text-transform: uppercase;
     }
 
     .lista-rodapé__link {
@@ -40,5 +41,12 @@ hr{
         display: flex;
         align-items: center;
         margin: 0.6em 0;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-secundario);
+        padding-left: 1em;
     }
 }

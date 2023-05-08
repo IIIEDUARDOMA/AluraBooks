@@ -7,7 +7,7 @@
     display: inline-block;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -38,17 +38,18 @@
     display: none;
 }
 
-.lista-menu__titulo, .lista-menu__item{
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
     width: 60vw;
 }
 
-.lista-menu__titulo{
+.lista-menu__titulo {
     color: var(--laranja);
 }
- 
-.lista-menu__link{
+
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -57,19 +58,33 @@
     font-weight: 400;
 }
 
-.container__titulo, .opções{
+.container__titulo,
+.opções {
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
+.container__botao:checked~.cabecalho__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url(../img/Menu\ Aberto.svg);
+}
+
+.container__botao:checked~.cabecalho__rotulo {
+    background: var(--azul-degrade);
+    padding: 1em;
+}
+
 @media screen and (min-width: 1024px) {
-    .container__titulo{
+    .container__titulo {
         font-family: var(--fonte-secundario);
         font-size: 30px;
         font-weight: 400;
         display: block;
     }
 
-    .container__titulo--negrito{
+    .container__titulo--negrito {
         font-weight: 700;
     }
 
@@ -78,29 +93,63 @@
     }
 
     .opções__item {
-        padding: 0 1em;
+        padding: 2em 1em;
         text-transform: uppercase;
     }
-    
+
     .opções__link {
         text-decoration: none;
         color: var(--preto);
     }
 
-    .container__imagem--transparente{
+    .container__imagem--transparente {
         display: none;
     }
 
-    .cabecalho__menu-hamburguer{
+    .cabecalho__menu-hamburguer {
         display: none;
     }
 
-    .opções__botões:checked ~ .lista-menu  {
+    .opções__botões:checked~.lista-menu {
         display: block;
         width: auto;
     }
 
     .opções__botões {
         display: none;
+    }
+
+    .opções__botões:checked~.opções__rotulo>.opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }   
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container {
+        padding: 0 4em;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .opções {
+        margin-right: auto;
     }
 }
