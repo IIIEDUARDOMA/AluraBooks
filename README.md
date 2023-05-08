@@ -22,7 +22,7 @@ Nesse projeto foi realizado a contrução da página começando pelo conceito de
 
 # IMAGEM DA TELA INICIAL DO DESKTOP:
 
-<img src="img/print pagina inicial DESKTOP.png">
+<img src="img/print pagina inicial desktop.png">
 
 
 
