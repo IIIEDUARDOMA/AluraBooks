@@ -1,4 +1,4 @@
-<div align-items = center><img src="img/Frame 100.png"></div>
+<div align-items = center><img src="img/Frame 100.png">
 
 # CURSO DE HTML E CSS DA ALURA!
 
@@ -29,4 +29,4 @@ Nesse projeto foi realizado a contrução da página começando pelo conceito de
 
 
 
- <div align-items = center><img src="img/Rodape README.png"></div>
+<img src="img/Rodape README.png"></div>
