@@ -1,4 +1,4 @@
-<div align = "center"><img src="img/Frame 100.png"></div>
+<div align = "center"><img src="img/Frame 100.png">
 
 # CURSO DE HTML E CSS DA ALURA!
 
@@ -19,14 +19,8 @@ Nesse projeto foi realizado a contrução da página começando pelo conceito de
 
 <img src="img/print pagina inicial mobile.png">
 
-
 # IMAGEM DA TELA INICIAL DO DESKTOP:
 
 <img src="img/print pagina inicial desktop.png">
 
-
-
-
-
-
-<div align = "center"><img src="img/Rodape README.png"></div>
+<img src="img/Rodape README.png"></div>
