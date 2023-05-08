@@ -29,4 +29,4 @@ Nesse projeto foi realizado a contrução da página começando pelo conceito de
 
 
 
- <img src="img/rodape README.png">
+ <img src="img/Rodape README.png">
